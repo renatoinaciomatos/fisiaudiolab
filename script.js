@@ -1,10 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("Página Fisiaudiolab carregada com sucesso.");
-
+    // Feedback simples ao clicar no botão de download
     const downloadBtn = document.querySelector('.download-btn');
 
     downloadBtn.addEventListener('click', () => {
-        // Log para controle simples ou analytics futuro
-        console.log("Iniciando download do APK...");
+        console.log("Download solicitado.");
+        // O atributo 'download' no HTML já cuida do início do download
     });
 });
